@@ -1,0 +1,51 @@
+
+
+<div class="bimg">
+  <!-- <body background="../assets/view.jpg"> -->
+
+        <nav class="navbar app-navbar">
+         <img src="" class="logo">
+          <ul class="nav  ">
+            <li><a class="nav-link" routerLink="./home">Home</a> </li>
+            <li class="nav-item"><a class="nav-link" routerLink="./about">About us</a></li>
+            <li class="nav-item">
+            <a class="nav-link" routerLink="todo">Todo</a>
+            </li>
+            <li>
+                    <div class="btn-group" dropdown>
+                      <button id="button-basic" dropdownToggle type="button" class="btn dropdown-toggle"
+                              aria-controls="dropdown-basic">
+                        more <span class="caret"></span>
+                      </button>
+                      <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+                          role="menu" aria-labelledby="button-basic">
+                        <li role="menuitem"><a class="dropdown-item" href="#">blog</a></li>
+                        <li role="menuitem"><a class="dropdown-item" href="#">news</a></li>
+                        
+                        
+                      
+                       </ul>
+                    </div>
+              
+            
+         
+             </li>
+           </ul>
+
+        </nav>
+        <br>
+        
+
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+  <!-- </body> -->
+</div>

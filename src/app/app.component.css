@@ -1,0 +1,42 @@
+
+.bimg
+{
+    background: url("../assets/view.jpg") no-repeat;
+    background-size:cover ;
+    height: 100vh;
+   
+}
+/* 
+body
+{
+    background: url("../assets/view.jpg") no-repeat;
+    background-size:cover ;
+    overflow-x: hidden;
+    
+}  */
+
+
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    background-color: sandybrown;
+    color:black;
+    border-radius: 100px;
+}
+
+.app-navbar{
+  
+    background-color: rgba(0,0,0,0.4);
+     
+     height:auto;
+     font-size: 30px;
+     font-family: sans-serif;
+     
+     
+ }
+ .btn{
+    margin-top: 1px;
+    color: rgb(251, 246, 246);
+    font-size: 30px;
+}
